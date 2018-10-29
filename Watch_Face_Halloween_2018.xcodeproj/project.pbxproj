@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90481CB1218794DE00B12874 /* LakkiReddy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90481CB0218794DE00B12874 /* LakkiReddy-Regular.ttf */; };
+		90481CB2218794DE00B12874 /* LakkiReddy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90481CB0218794DE00B12874 /* LakkiReddy-Regular.ttf */; };
+		9052E04F21878C0C009C5352 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9052E04E21878C0C009C5352 /* AppDelegate.swift */; };
+		9052E05121878C0C009C5352 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9052E05021878C0C009C5352 /* ViewController.swift */; };
+		9052E05421878C0C009C5352 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9052E05221878C0C009C5352 /* Main.storyboard */; };
+		9052E05621878C0C009C5352 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9052E05521878C0C009C5352 /* Assets.xcassets */; };
+		9052E05921878C0C009C5352 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9052E05721878C0C009C5352 /* LaunchScreen.storyboard */; };
+		9052E05E21878C0C009C5352 /* Watch_Face_Halloween_2018 WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9052E05D21878C0C009C5352 /* Watch_Face_Halloween_2018 WatchKit App.app */; };
+		9052E06421878C0C009C5352 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9052E06221878C0C009C5352 /* Interface.storyboard */; };
+		9052E06621878C0D009C5352 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9052E06521878C0D009C5352 /* Assets.xcassets */; };
+		9052E06D21878C0D009C5352 /* Watch_Face_Halloween_2018 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9052E06C21878C0D009C5352 /* Watch_Face_Halloween_2018 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9052E07221878C0D009C5352 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9052E07121878C0D009C5352 /* InterfaceController.swift */; };
+		9052E07421878C0D009C5352 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9052E07321878C0D009C5352 /* ExtensionDelegate.swift */; };
+		9052E07621878C0D009C5352 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9052E07521878C0D009C5352 /* Assets.xcassets */; };
+		9052E0A621878D24009C5352 /* Halloween2018.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9052E0A221878D24009C5352 /* Halloween2018.swift */; };
+		9052E0A821878D24009C5352 /* Halloween2018.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9052E0A421878D24009C5352 /* Halloween2018.sks */; };
+		9052E0A921878D24009C5352 /* halloween2018.atlasc in Resources */ = {isa = PBXBuildFile; fileRef = 9052E0A521878D24009C5352 /* halloween2018.atlasc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9052E05F21878C0C009C5352 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9052E04321878C0C009C5352 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9052E05C21878C0C009C5352;
+			remoteInfo = "Watch_Face_Halloween_2018 WatchKit App";
+		};
+		9052E06E21878C0D009C5352 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9052E04321878C0C009C5352 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9052E06B21878C0D009C5352;
+			remoteInfo = "Watch_Face_Halloween_2018 WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9052E07D21878C0D009C5352 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9052E06D21878C0D009C5352 /* Watch_Face_Halloween_2018 WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9052E08121878C0D009C5352 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				9052E05E21878C0C009C5352 /* Watch_Face_Halloween_2018 WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		90481CB0218794DE00B12874 /* LakkiReddy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LakkiReddy-Regular.ttf"; sourceTree = "<group>"; };
+		90481CB32187961E00B12874 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9052E04B21878C0C009C5352 /* Watch_Face_Halloween_2018.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watch_Face_Halloween_2018.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9052E04E21878C0C009C5352 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9052E05021878C0C009C5352 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9052E05321878C0C009C5352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9052E05521878C0C009C5352 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9052E05821878C0C009C5352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9052E05A21878C0C009C5352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9052E05D21878C0C009C5352 /* Watch_Face_Halloween_2018 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Watch_Face_Halloween_2018 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9052E06321878C0C009C5352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		9052E06521878C0D009C5352 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9052E06721878C0D009C5352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9052E06C21878C0D009C5352 /* Watch_Face_Halloween_2018 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Watch_Face_Halloween_2018 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9052E07121878C0D009C5352 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		9052E07321878C0D009C5352 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		9052E07521878C0D009C5352 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9052E07721878C0D009C5352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9052E0A221878D24009C5352 /* Halloween2018.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Halloween2018.swift; sourceTree = "<group>"; };
+		9052E0A421878D24009C5352 /* Halloween2018.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Halloween2018.sks; sourceTree = "<group>"; };
+		9052E0A521878D24009C5352 /* halloween2018.atlasc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = halloween2018.atlasc; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9052E04821878C0C009C5352 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9052E06921878C0D009C5352 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9052E04221878C0C009C5352 = {
+			isa = PBXGroup;
+			children = (
+				90481CB32187961E00B12874 /* README.md */,
+				9052E04D21878C0C009C5352 /* Watch_Face_Halloween_2018 */,
+				9052E06121878C0C009C5352 /* Watch_Face_Halloween_2018 WatchKit App */,
+				9052E07021878C0D009C5352 /* Watch_Face_Halloween_2018 WatchKit Extension */,
+				9052E04C21878C0C009C5352 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9052E04C21878C0C009C5352 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9052E04B21878C0C009C5352 /* Watch_Face_Halloween_2018.app */,
+				9052E05D21878C0C009C5352 /* Watch_Face_Halloween_2018 WatchKit App.app */,
+				9052E06C21878C0D009C5352 /* Watch_Face_Halloween_2018 WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9052E04D21878C0C009C5352 /* Watch_Face_Halloween_2018 */ = {
+			isa = PBXGroup;
+			children = (
+				9052E04E21878C0C009C5352 /* AppDelegate.swift */,
+				9052E05021878C0C009C5352 /* ViewController.swift */,
+				9052E05221878C0C009C5352 /* Main.storyboard */,
+				9052E05521878C0C009C5352 /* Assets.xcassets */,
+				9052E05721878C0C009C5352 /* LaunchScreen.storyboard */,
+				9052E05A21878C0C009C5352 /* Info.plist */,
+			);
+			path = Watch_Face_Halloween_2018;
+			sourceTree = "<group>";
+		};
+		9052E06121878C0C009C5352 /* Watch_Face_Halloween_2018 WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				9052E06221878C0C009C5352 /* Interface.storyboard */,
+				9052E06521878C0D009C5352 /* Assets.xcassets */,
+				9052E06721878C0D009C5352 /* Info.plist */,
+			);
+			path = "Watch_Face_Halloween_2018 WatchKit App";
+			sourceTree = "<group>";
+		};
+		9052E07021878C0D009C5352 /* Watch_Face_Halloween_2018 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9052E0A121878CEA009C5352 /* Halloween_2018 */,
+				9052E07121878C0D009C5352 /* InterfaceController.swift */,
+				9052E07321878C0D009C5352 /* ExtensionDelegate.swift */,
+				9052E07521878C0D009C5352 /* Assets.xcassets */,
+				9052E07721878C0D009C5352 /* Info.plist */,
+			);
+			path = "Watch_Face_Halloween_2018 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		9052E0A121878CEA009C5352 /* Halloween_2018 */ = {
+			isa = PBXGroup;
+			children = (
+				9052E0A521878D24009C5352 /* halloween2018.atlasc */,
+				90481CB0218794DE00B12874 /* LakkiReddy-Regular.ttf */,
+				9052E0A421878D24009C5352 /* Halloween2018.sks */,
+				9052E0A221878D24009C5352 /* Halloween2018.swift */,
+			);
+			path = Halloween_2018;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9052E04A21878C0C009C5352 /* Watch_Face_Halloween_2018 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9052E08221878C0D009C5352 /* Build configuration list for PBXNativeTarget "Watch_Face_Halloween_2018" */;
+			buildPhases = (
+				9052E04721878C0C009C5352 /* Sources */,
+				9052E04821878C0C009C5352 /* Frameworks */,
+				9052E04921878C0C009C5352 /* Resources */,
+				9052E08121878C0D009C5352 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9052E06021878C0C009C5352 /* PBXTargetDependency */,
+			);
+			name = Watch_Face_Halloween_2018;
+			productName = Watch_Face_Halloween_2018;
+			productReference = 9052E04B21878C0C009C5352 /* Watch_Face_Halloween_2018.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9052E05C21878C0C009C5352 /* Watch_Face_Halloween_2018 WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9052E07E21878C0D009C5352 /* Build configuration list for PBXNativeTarget "Watch_Face_Halloween_2018 WatchKit App" */;
+			buildPhases = (
+				9052E05B21878C0C009C5352 /* Resources */,
+				9052E07D21878C0D009C5352 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9052E06F21878C0D009C5352 /* PBXTargetDependency */,
+			);
+			name = "Watch_Face_Halloween_2018 WatchKit App";
+			productName = "Watch_Face_Halloween_2018 WatchKit App";
+			productReference = 9052E05D21878C0C009C5352 /* Watch_Face_Halloween_2018 WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		9052E06B21878C0D009C5352 /* Watch_Face_Halloween_2018 WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9052E07A21878C0D009C5352 /* Build configuration list for PBXNativeTarget "Watch_Face_Halloween_2018 WatchKit Extension" */;
+			buildPhases = (
+				9052E06821878C0D009C5352 /* Sources */,
+				9052E06921878C0D009C5352 /* Frameworks */,
+				9052E06A21878C0D009C5352 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Watch_Face_Halloween_2018 WatchKit Extension";
+			productName = "Watch_Face_Halloween_2018 WatchKit Extension";
+			productReference = 9052E06C21878C0D009C5352 /* Watch_Face_Halloween_2018 WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9052E04321878C0C009C5352 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Michal Tynior";
+				TargetAttributes = {
+					9052E04A21878C0C009C5352 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					9052E05C21878C0C009C5352 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					9052E06B21878C0D009C5352 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 9052E04621878C0C009C5352 /* Build configuration list for PBXProject "Watch_Face_Halloween_2018" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9052E04221878C0C009C5352;
+			productRefGroup = 9052E04C21878C0C009C5352 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9052E04A21878C0C009C5352 /* Watch_Face_Halloween_2018 */,
+				9052E05C21878C0C009C5352 /* Watch_Face_Halloween_2018 WatchKit App */,
+				9052E06B21878C0D009C5352 /* Watch_Face_Halloween_2018 WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9052E04921878C0C009C5352 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9052E05921878C0C009C5352 /* LaunchScreen.storyboard in Resources */,
+				9052E05621878C0C009C5352 /* Assets.xcassets in Resources */,
+				9052E05421878C0C009C5352 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9052E05B21878C0C009C5352 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90481CB1218794DE00B12874 /* LakkiReddy-Regular.ttf in Resources */,
+				9052E06621878C0D009C5352 /* Assets.xcassets in Resources */,
+				9052E06421878C0C009C5352 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9052E06A21878C0D009C5352 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9052E0A921878D24009C5352 /* halloween2018.atlasc in Resources */,
+				90481CB2218794DE00B12874 /* LakkiReddy-Regular.ttf in Resources */,
+				9052E07621878C0D009C5352 /* Assets.xcassets in Resources */,
+				9052E0A821878D24009C5352 /* Halloween2018.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9052E04721878C0C009C5352 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9052E05121878C0C009C5352 /* ViewController.swift in Sources */,
+				9052E04F21878C0C009C5352 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9052E06821878C0D009C5352 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9052E0A621878D24009C5352 /* Halloween2018.swift in Sources */,
+				9052E07421878C0D009C5352 /* ExtensionDelegate.swift in Sources */,
+				9052E07221878C0D009C5352 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9052E06021878C0C009C5352 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9052E05C21878C0C009C5352 /* Watch_Face_Halloween_2018 WatchKit App */;
+			targetProxy = 9052E05F21878C0C009C5352 /* PBXContainerItemProxy */;
+		};
+		9052E06F21878C0D009C5352 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9052E06B21878C0D009C5352 /* Watch_Face_Halloween_2018 WatchKit Extension */;
+			targetProxy = 9052E06E21878C0D009C5352 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9052E05221878C0C009C5352 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9052E05321878C0C009C5352 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9052E05721878C0C009C5352 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9052E05821878C0C009C5352 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9052E06221878C0C009C5352 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9052E06321878C0C009C5352 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9052E07821878C0D009C5352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9052E07921878C0D009C5352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9052E07B21878C0D009C5352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6LUKKGTQB5;
+				INFOPLIST_FILE = "Watch_Face_Halloween_2018 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tynior.Watch-Face-Halloween-2018.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		9052E07C21878C0D009C5352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6LUKKGTQB5;
+				INFOPLIST_FILE = "Watch_Face_Halloween_2018 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tynior.Watch-Face-Halloween-2018.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		9052E07F21878C0D009C5352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6LUKKGTQB5;
+				IBSC_MODULE = Watch_Face_Halloween_2018_WatchKit_Extension;
+				INFOPLIST_FILE = "Watch_Face_Halloween_2018 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tynior.Watch-Face-Halloween-2018.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		9052E08021878C0D009C5352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6LUKKGTQB5;
+				IBSC_MODULE = Watch_Face_Halloween_2018_WatchKit_Extension;
+				INFOPLIST_FILE = "Watch_Face_Halloween_2018 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tynior.Watch-Face-Halloween-2018.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		9052E08321878C0D009C5352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6LUKKGTQB5;
+				INFOPLIST_FILE = Watch_Face_Halloween_2018/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tynior.Watch-Face-Halloween-2018";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9052E08421878C0D009C5352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6LUKKGTQB5;
+				INFOPLIST_FILE = Watch_Face_Halloween_2018/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tynior.Watch-Face-Halloween-2018";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9052E04621878C0C009C5352 /* Build configuration list for PBXProject "Watch_Face_Halloween_2018" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9052E07821878C0D009C5352 /* Debug */,
+				9052E07921878C0D009C5352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9052E07A21878C0D009C5352 /* Build configuration list for PBXNativeTarget "Watch_Face_Halloween_2018 WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9052E07B21878C0D009C5352 /* Debug */,
+				9052E07C21878C0D009C5352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9052E07E21878C0D009C5352 /* Build configuration list for PBXNativeTarget "Watch_Face_Halloween_2018 WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9052E07F21878C0D009C5352 /* Debug */,
+				9052E08021878C0D009C5352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9052E08221878C0D009C5352 /* Build configuration list for PBXNativeTarget "Watch_Face_Halloween_2018" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9052E08321878C0D009C5352 /* Debug */,
+				9052E08421878C0D009C5352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9052E04321878C0C009C5352 /* Project object */;
+}
