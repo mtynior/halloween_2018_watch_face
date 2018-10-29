@@ -2,7 +2,7 @@
 
 My custom watch face :)
 
-![Halloween2018WatchFace](images/watch_face.png)
+![Halloween2018WatchFace](images/watch_face.png | width=300)
 
 ## Requirements
 
