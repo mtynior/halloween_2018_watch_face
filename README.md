@@ -9,6 +9,10 @@ My custom watch face :)
 - iOS 11.0+ / watchOS 5.0+
 - Xcode 10.0+
 
+## Installation
+
+Follow [this tutorial](https://yves.io/blog/2018/10/what-watch-is-it).
+
 ## Credits
 
 - [Steve Troughton-Smith](https://github.com/steventroughtonsmith/SpriteKitWatchFace)
