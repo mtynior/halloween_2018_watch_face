@@ -21,6 +21,12 @@ public final class Halloween2018: SKScene {
         return formatter
     }()
     
+    lazy var timeFormatter: DateFormatter = {
+        let formatter = DateFormatter()
+        formatter.timeStyle = .short
+        return formatter
+    }()
+    
     public override convenience init() {
         self.init(fileNamed: "Halloween2018")!
     }
@@ -33,7 +39,6 @@ public final class Halloween2018: SKScene {
             let witchNode = faceNode.childNode(withName: "Witch") as? SKSpriteNode else {
                 return
         }
-        
         
         backgroundNode.texture = textureAtlas.textureNamed("background")
         labelTimeNode.fontName = "LakkiReddy"
@@ -54,11 +59,9 @@ public final class Halloween2018: SKScene {
         }
         
         let now = Date()
-        let components = calendar.dateComponents([.hour, .minute, .second], from: now)
-        let hours = components.hour ?? 0
-        let minutes = components.minute ?? 0
-        
-        labelTimeNode.text = String(format: "%02d:%02d", hours, minutes)
+        let time = timeFormatter.string(from: now)
+        labelTimeNode.text = time
+        labelTimeNode.fontSize = fontSizeFor(text: time)
         labelDateNode.text = dateFormatter.string(from: now)
     }
     
@@ -69,6 +72,15 @@ public final class Halloween2018: SKScene {
         let rotateRight = SKAction.scaleX(to: node.xScale, duration: 0)
         let moveLoop = SKAction.sequence([moveRight, rotateLeft, moveLeft, rotateRight])
         return SKAction.repeatForever(moveLoop)
+    }
+    
+    private func fontSizeFor(text: String) -> CGFloat {
+        switch text.count {
+        case 0...5: return 28
+        case 6...7: return 24
+        case 8: return 19
+        default: return 18
+        }
     }
     
 }
