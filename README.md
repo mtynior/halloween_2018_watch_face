@@ -20,4 +20,4 @@ Follow [this tutorial](https://yves.io/blog/2018/10/what-watch-is-it).
 
 ## License
 
-ColorizeSwift is released under the MIT license. See LICENSE for details.
+Halloween Watch Face is released under the MIT license. See LICENSE for details.
