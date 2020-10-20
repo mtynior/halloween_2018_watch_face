@@ -8,6 +8,10 @@
 
 import Foundation
 
+// Thanks to:
+// https://github.com/steventroughtonsmith/SpriteKitWatchFace/pull/27
+// https://github.com/kuglee/TermiWatch/blob/8bcf4af5465c2d8822067ae4d85bfec45727f85a/TermiWatch%20WatchKit%20Extension/InterfaceController.swift
+
 extension InterfaceController {
     func hideOSTimeLabel() {
         if #available(watchOS 7, *) {
