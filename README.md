@@ -7,7 +7,7 @@ My custom watch face :)
 ## Requirements
 
 - iOS 13.0+ / watchOS 6.0+
-- Xcode 10.0+
+- Xcode 11.0+
 
 ## Installation
 
