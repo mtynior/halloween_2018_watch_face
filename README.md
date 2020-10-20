@@ -6,12 +6,12 @@ My custom watch face :)
 
 ## Requirements
 
-- iOS 11.0+ / watchOS 5.0+
+- iOS 13.0+ / watchOS 6.0+
 - Xcode 10.0+
 
 ## Installation
 
-Follow [this tutorial](https://yves.io/blog/2018/10/what-watch-is-it).
+Compile the project and run on your device.
 
 ## Credits
 

@@ -24,6 +24,7 @@
 		9052E0A621878D24009C5352 /* Halloween2018.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9052E0A221878D24009C5352 /* Halloween2018.swift */; };
 		9052E0A821878D24009C5352 /* Halloween2018.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9052E0A421878D24009C5352 /* Halloween2018.sks */; };
 		9052E0A921878D24009C5352 /* halloween2018.atlasc in Resources */ = {isa = PBXBuildFile; fileRef = 9052E0A521878D24009C5352 /* halloween2018.atlasc */; };
+		9078DF00253F6BF700B84FFA /* InterfaceController_TimeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9078DEFF253F6BF700B84FFA /* InterfaceController_TimeLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +91,7 @@
 		9052E0A221878D24009C5352 /* Halloween2018.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Halloween2018.swift; sourceTree = "<group>"; };
 		9052E0A421878D24009C5352 /* Halloween2018.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Halloween2018.sks; sourceTree = "<group>"; };
 		9052E0A521878D24009C5352 /* halloween2018.atlasc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = halloween2018.atlasc; sourceTree = "<group>"; };
+		9078DEFF253F6BF700B84FFA /* InterfaceController_TimeLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController_TimeLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 			children = (
 				9052E0A121878CEA009C5352 /* Halloween_2018 */,
 				9052E07121878C0D009C5352 /* InterfaceController.swift */,
+				9078DEFF253F6BF700B84FFA /* InterfaceController_TimeLabel.swift */,
 				9052E07321878C0D009C5352 /* ExtensionDelegate.swift */,
 				9052E07521878C0D009C5352 /* Assets.xcassets */,
 				9052E07721878C0D009C5352 /* Info.plist */,
@@ -240,17 +243,19 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1000;
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Michal Tynior";
 				TargetAttributes = {
 					9052E04A21878C0C009C5352 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1200;
 					};
 					9052E05C21878C0C009C5352 = {
 						CreatedOnToolsVersion = 10.0;
 					};
 					9052E06B21878C0D009C5352 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1200;
 					};
 				};
 			};
@@ -323,6 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9052E0A621878D24009C5352 /* Halloween2018.swift in Sources */,
+				9078DF00253F6BF700B84FFA /* InterfaceController_TimeLabel.swift in Sources */,
 				9052E07421878C0D009C5352 /* ExtensionDelegate.swift in Sources */,
 				9052E07221878C0D009C5352 /* InterfaceController.swift in Sources */,
 			);
@@ -397,6 +403,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -422,7 +429,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -458,6 +465,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -477,7 +485,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -503,9 +511,9 @@
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
 			};
 			name = Debug;
 		};
@@ -525,9 +533,9 @@
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
 			};
 			name = Release;
 		};
@@ -546,7 +554,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
 			};
 			name = Debug;
 		};
@@ -565,7 +573,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
 			};
 			name = Release;
 		};
@@ -582,7 +590,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tynior.Watch-Face-Halloween-2018";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -600,7 +608,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tynior.Watch-Face-Halloween-2018";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

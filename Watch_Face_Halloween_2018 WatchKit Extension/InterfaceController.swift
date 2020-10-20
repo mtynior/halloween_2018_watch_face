@@ -11,7 +11,6 @@ import Foundation
 import SpriteKit
 
 class InterfaceController: WKInterfaceController {
-    
     @IBOutlet weak var scene: WKInterfaceSKScene!
     
     override func awake(withContext context: Any?) {
@@ -34,42 +33,6 @@ class InterfaceController: WKInterfaceController {
     }
     
     override func didAppear() {
-        removeWatchOSTimeLabel()
+        hideOSTimeLabel()
     }
-    
-}
-
-extension InterfaceController {
-    
-    func removeWatchOSTimeLabel() {
-        // Do you want to see something spooky? Read this code :P
-        guard let fullScreenViewType = NSClassFromString("SPFullScreenView") else {
-            return
-        }
-        
-        guard let viewControllers = (((NSClassFromString("UIApplication")?
-            .value(forKey: "sharedApplication") as? NSObject)?
-            .value(forKey: "keyWindow") as? NSObject)?
-            .value(forKey: "rootViewController") as? NSObject)?
-            .value(forKey: "viewControllers") as? [NSObject] else {
-                return
-        }
-        
-        viewControllers.forEach { controller in
-            guard let views = (controller.value(forKey: "view") as? NSObject)?.value(forKey: "subviews") as? [NSObject] else {
-                return
-            }
-            
-            views.forEach { view in
-                if view.isKind(of: fullScreenViewType) {
-                    ((view.value(forKey: "timeLabel") as? NSObject)?
-                        .value(forKey: "layer") as? NSObject)?
-                        .perform(NSSelectorFromString("setOpacity:"), with: CGFloat(0))
-                }
-            }
-            
-        }
-        
-    }
-    
 }

@@ -30,11 +30,13 @@
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.watchkit</string>
 	</dict>
-	<key>WKExtensionDelegateClassName</key>
-	<string>$(PRODUCT_MODULE_NAME).ExtensionDelegate</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>LakkiReddy-Regular.ttf</string>
 	</array>
+	<key>WKExtensionDelegateClassName</key>
+	<string>$(PRODUCT_MODULE_NAME).ExtensionDelegate</string>
+	<key>WKRunsIndependentlyOfCompanionApp</key>
+	<true/>
 </dict>
 </plist>

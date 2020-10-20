@@ -10,7 +10,6 @@ import Foundation
 import SpriteKit
 
 public final class Halloween2018: SKScene {
-    
     let textureAtlas = SKTextureAtlas(named: "halloween2018")
     
     let calendar = Calendar.current
@@ -82,5 +81,4 @@ public final class Halloween2018: SKScene {
         default: return 18
         }
     }
-    
 }
