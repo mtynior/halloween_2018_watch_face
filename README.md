@@ -13,6 +13,8 @@ My custom watch face :)
 
 Compile the project and run on your device.
 
+You can also follow [this tutorial](https://yves.io/blog/2018/10/161223/_/what-watch).
+
 ## Credits
 
 - [Steve Troughton-Smith](https://github.com/steventroughtonsmith/SpriteKitWatchFace)
